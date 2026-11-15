@@ -1,6 +1,6 @@
 # Iqal — Privacy Policy
 
-*Last updated: 14 November 2026*
+*Last updated: 15 November 2026*
 
 Iqal is a free, open-source website and app blocker for Windows and Linux. This policy covers the Iqal app and the Iqal browser extension.
 
@@ -38,10 +38,15 @@ on your phone, and nothing is sent to the developer. On the phone it uses:
 - **the phone's position (GPS)**, only while you use a "while at a place" lock,
   read on the phone through Android's own location service;
 - **Chrome settings**: the blocked websites go into Chrome's own block list.
-  When "Block adult content" is on, Chrome looks up website names through
-  Cloudflare's family filter (`1.1.1.3`), which refuses adult sites. Cloudflare
-  then sees which website names are looked up, under
-  [its own privacy policy](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/).
+  When "Block adult websites" is on, Chrome looks up website names through
+  CleanBrowsing's family filter (`doh.cleanbrowsing.org`), which refuses adult
+  sites. CleanBrowsing then sees which website names are looked up, under
+  [its own privacy policy](https://cleanbrowsing.org/privacy).
+- **the map** for a "while at a place" lock: its pictures come from
+  OpenStreetMap. To send them, OpenStreetMap's servers see your internet
+  address and which area of the map you look at, under
+  [their own privacy policy](https://osmfoundation.org/wiki/Privacy_Policy).
+  The pictures are kept on the phone, so an area loads only once a month.
 
 ## Your choices
 

@@ -1,3 +1,5 @@
+<img src="icon.png" width="96" height="96" alt="">
+
 # Iqal Blocker for Android
 
 Blocks distracting apps and websites on your phone, with locks that really
@@ -11,7 +13,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Early version (0.1.0): so far tested on Android 17.
+- Version 0.2.7: tested on Android 17.
 
 ## Install
 
@@ -55,7 +57,7 @@ one-line computer command as a fallback.
 - **A lock means it.** While a lock runs you cannot weaken or delete the block,
   switch off Iqal, or uninstall it. Start with a short time lock to try it.
 - **Getting out:** when no lock is running, open Iqal and tap
-  **Remove all blocks and stop being the manager**. After that Iqal can be
+  **Stop being the manager** at the bottom of the main page. After that Iqal can be
   uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
   block is on.
