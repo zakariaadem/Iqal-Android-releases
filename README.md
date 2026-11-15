@@ -39,18 +39,18 @@ calls it "device owner"). Android only allows this on a phone with
    deleted; you add the accounts back right after.
 2. **Remove extra users** in *Settings → System → Users*, and switch off
    Parental controls if they are on (they add a hidden "Supervising" user).
-3. Open Iqal and follow its guide:
-   - **Step 1:** allow notifications and "find devices on the local network".
-   - **Step 2:** make Developer options appear (*Settings → About phone*, tap
+3. Open Iqal. Its guide takes you through the rest, one step at a time:
+   - allow notifications and "find devices on the local network";
+   - make Developer options appear (*Settings → About phone*, tap
      **Build number** seven times), connect to Wi-Fi, and switch on
-     **Wireless debugging** in *Settings → System → Developer options*.
-   - **Step 3:** tap **Start pairing**, then tap the words *Wireless debugging*,
+     **Wireless debugging** in *Settings → System → Developer options*;
+   - tap **Start pairing**, then tap the words *Wireless debugging*,
      choose **Pair device with pairing code**, pull down the notifications and
      type the six-digit code into the Iqal notification.
 4. When Iqal says it is the manager, add your accounts back.
 
-If something goes wrong, Iqal explains why in plain words. It also shows a
-one-line computer command as a fallback.
+If something goes wrong, Iqal explains why in plain words. Under
+**Other ways to set up** it also shows a one-line computer command.
 
 ## Good to know
 
