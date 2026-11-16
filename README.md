@@ -13,7 +13,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.2.9: tested on Android 17.
+- Version 0.3.0: tested on Android 17.
 
 ## Install
 
@@ -39,7 +39,8 @@ calls it "device owner"). Android only allows this on a phone with
    deleted; you add the accounts back right after.
 2. **Remove extra users** in *Settings → System → Users*, and switch off
    Parental controls if they are on (they add a hidden "Supervising" user).
-3. Open Iqal. Its guide takes you through the rest, one step at a time:
+3. Open Iqal. Its guide takes you through the rest, one step at a time
+   (tap **How?** on a step for its instructions):
    - allow notifications and "find devices on the local network";
    - make Developer options appear (*Settings → About phone*, tap
      **Build number** seven times), connect to Wi-Fi, and switch on
@@ -56,9 +57,9 @@ If something goes wrong, Iqal explains why in plain words. Under
 
 - **A lock means it.** While a lock runs you cannot weaken or delete the block,
   switch off Iqal, or uninstall it. Start with a short time lock to try it.
-- **Getting out:** when no lock is running, open Iqal and tap
-  **Stop being the manager** at the bottom of the main page. After that Iqal can be
-  uninstalled like any other app.
+- **Getting out:** when no lock is running, open Iqal's **Settings** (the gear
+  at the top) and tap **Stop being the manager** at the bottom. After that Iqal
+  can be uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
   block is on.
 
