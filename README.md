@@ -13,7 +13,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.3.0: tested on Android 17.
+- Version 0.3.1: tested on Android 17.
 
 ## Install
 
@@ -61,7 +61,7 @@ If something goes wrong, Iqal explains why in plain words. Under
   at the top) and tap **Stop being the manager** at the bottom. After that Iqal
   can be uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
-  block is on.
+  block that blocks websites is on (they do not take Iqal's list).
 
 ## Check the download (optional)
 
