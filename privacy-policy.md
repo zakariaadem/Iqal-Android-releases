@@ -1,6 +1,6 @@
 # Iqal — Privacy Policy
 
-*Last updated: 17 November 2026*
+*Last updated: 21 November 2026*
 
 Iqal is a free, open-source website and app blocker for Windows and Linux. This policy covers the Iqal app and the Iqal browser extension.
 
@@ -42,6 +42,10 @@ on your phone, and nothing is sent to the developer. On the phone it uses:
   CleanBrowsing's family filter (`doh.cleanbrowsing.org`), which refuses adult
   sites. CleanBrowsing then sees which website names are looked up, under
   [its own privacy policy](https://cleanbrowsing.org/privacy).
+- **a small VPN, only for apps you choose** under "Also in these apps": it
+  carries nothing but those apps' look-ups of website names, which go to the
+  same CleanBrowsing family filter. All other traffic, and every other app,
+  goes past it untouched. Nothing is recorded or sent anywhere else.
 - **the map** for a "while at a place" lock: its pictures come from
   OpenStreetMap. To send them, OpenStreetMap's servers see your internet
   address and which area of the map you look at, under

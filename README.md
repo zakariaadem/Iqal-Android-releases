@@ -3,9 +3,10 @@
 # Iqal Blocker for Android
 
 Blocks distracting apps and websites on your phone, with locks that really
-cannot be undone until they end: a time lock, a password lock, a lock until a
-date, a lock while you are at a place, and more. Adult content can be blocked
-with one switch.
+cannot be undone: a password, a long random text, a lock until the phone
+restarts, or a lock while you are at a place. Each block can be on all the
+time, for a while, until a date, or at certain times. Adult content can be
+blocked with one switch, also inside apps with a browser built in.
 
 This repository only holds the download. Get the APK from the
 [Releases page](../../releases/latest).
@@ -13,7 +14,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.3.1: tested on Android 17.
+- Version 0.4.0: tested on Android 17.
 
 ## Install
 
@@ -56,12 +57,17 @@ If something goes wrong, Iqal explains why in plain words. Under
 ## Good to know
 
 - **A lock means it.** While a lock runs you cannot weaken or delete the block,
-  switch off Iqal, or uninstall it. Start with a short time lock to try it.
+  switch off Iqal, or uninstall it. There is no emergency way out: keep your
+  password safe. To try it, start with a lock "until the phone restarts".
 - **Getting out:** when no lock is running, open Iqal's **Settings** (the gear
   at the top) and tap **Stop being the manager** at the bottom. After that Iqal
   can be uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
   block that blocks websites is on (they do not take Iqal's list).
+- Apps with a browser built in (Klarna, for example) can be added under
+  **Block adult content → Also in these apps**. Iqal then runs a small VPN for
+  those apps only; Android shows a key icon, and another VPN app cannot run at
+  the same time.
 
 ## Check the download (optional)
 
