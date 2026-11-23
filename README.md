@@ -6,7 +6,7 @@ Blocks distracting apps and websites on your phone, with locks that really
 cannot be undone: a password, a long random text, a lock until the phone
 restarts, or a lock while you are at a place. Each block can be on all the
 time, for a while, until a date, or at certain times. Adult content can be
-blocked with one switch, also inside apps with a browser built in.
+blocked with one switch, and browsers inside other apps can be switched off.
 
 This repository only holds the download. Get the APK from the
 [Releases page](../../releases/latest).
@@ -14,7 +14,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.4.1: tested on Android 17.
+- Version 0.4.2: tested on Android 17.
 
 ## Install
 
@@ -64,10 +64,9 @@ If something goes wrong, Iqal explains why in plain words. Under
   can be uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
   block that blocks websites is on (they do not take Iqal's list).
-- Apps with a browser built in (Klarna, for example) can be added under
-  **Block adult content → Also in these apps**. Iqal then runs a small VPN for
-  those apps only; Android shows a key icon, and another VPN app cannot run at
-  the same time.
+- Many apps (Klarna, for example) have a browser inside. Under **Websites →
+  Switch off browsers inside apps**, Iqal switches that part of Android off
+  while the block is on. Some app pages (payments, logins) may not work then.
 
 ## Check the download (optional)
 

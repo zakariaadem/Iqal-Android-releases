@@ -1,6 +1,6 @@
 # Iqal — Privacy Policy
 
-*Last updated: 21 November 2026*
+*Last updated: 23 November 2026*
 
 Iqal is a free, open-source website and app blocker for Windows and Linux. This policy covers the Iqal app and the Iqal browser extension.
 
@@ -36,16 +36,16 @@ on your phone, and nothing is sent to the developer. On the phone it uses:
 - **the list of installed apps** and **Android's usage records**, to switch
   apps off and to count time for daily allowances;
 - **the phone's position (GPS)**, only while you use a "while at a place" lock,
-  read on the phone through Android's own location service;
+  read on the phone through Android's own location service. On phones with
+  Google Play services, Google's place watch tells Iqal when you arrive at or
+  leave the place: for this, the place's position is given to Google Play
+  services on the phone, under
+  [Google's privacy policy](https://policies.google.com/privacy);
 - **Chrome settings**: the blocked websites go into Chrome's own block list.
   When "Block adult content" is on, Chrome looks up website names through
   CleanBrowsing's family filter (`doh.cleanbrowsing.org`), which refuses adult
   sites. CleanBrowsing then sees which website names are looked up, under
   [its own privacy policy](https://cleanbrowsing.org/privacy).
-- **a small VPN, only for apps you choose** under "Also in these apps": it
-  carries nothing but those apps' look-ups of website names, which go to the
-  same CleanBrowsing family filter. All other traffic, and every other app,
-  goes past it untouched. Nothing is recorded or sent anywhere else.
 - **the map** for a "while at a place" lock: its pictures come from
   OpenStreetMap. To send them, OpenStreetMap's servers see your internet
   address and which area of the map you look at, under
