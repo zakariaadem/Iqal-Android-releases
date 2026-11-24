@@ -14,7 +14,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.4.3: tested on Android 17.
+- Version 0.4.5: tested on Android 17.
 
 ## Install
 
@@ -64,6 +64,9 @@ If something goes wrong, Iqal explains why in plain words. Under
   can be uninstalled like any other app.
 - Websites are blocked in **Chrome**. Other browsers are switched off while a
   block that blocks websites is on (they do not take Iqal's list).
+- **Debugging:** while a lock runs, USB and wireless debugging are switched off,
+  unless you switch on *Keep USB and wireless debugging on while locked* in
+  Iqal's Settings (only while nothing is locked). Debugging cannot open a lock.
 
 ## Check the download (optional)
 
