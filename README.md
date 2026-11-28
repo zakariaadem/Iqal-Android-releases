@@ -14,7 +14,7 @@ This repository only holds the download. Get the APK from the
 - Needs **Android 11 or newer**.
 - Free, no account, no ads, no tracking. See the [privacy policy](privacy-policy.md).
 - English and Arabic.
-- Version 0.4.6: tested on Android 17.
+- Version 0.4.12: tested on Android 17.
 
 ## Install
 

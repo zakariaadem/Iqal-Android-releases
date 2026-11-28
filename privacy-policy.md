@@ -20,7 +20,6 @@ All of this is handled **on your own computer**. The extension passes page addre
 - Nothing is sent to the developer.
 - Nothing is sent to any other company or server.
 - There is no account, no analytics, no advertising and no tracking.
-- Statistics about what was blocked are stored only on your computer, and you can delete them in the app.
 
 Iqal connects to the internet for these purposes only:
 
@@ -30,8 +29,10 @@ Iqal connects to the internet for these purposes only:
 
 ## Iqal for Android
 
-The Android app works the same way: your blocks, statistics and activity stay
-on your phone, and nothing is sent to the developer. On the phone it uses:
+The Android app works the same way: your blocks stay on your phone, and nothing
+is sent to the developer. Iqal keeps a record of its own checks for 72 hours
+(Settings → Check log), so problems can be found; it leaves the phone only if
+you copy or share it yourself. On the phone it uses:
 
 - **the list of installed apps** and **Android's usage records**, to switch
   apps off and to count time for daily allowances;
@@ -54,7 +55,7 @@ on your phone, and nothing is sent to the developer. On the phone it uses:
 
 ## Your choices
 
-You decide what is blocked, and you can see, change or delete your blocks and statistics in the Iqal app. Uninstalling Iqal removes the extension and the programs. On Linux, `apt purge iqal` also deletes your blocks and statistics; on Windows they are kept in `C:\ProgramData\Iqal`, in case you install Iqal again, until you delete that folder. (A block that is locked keeps Iqal installed until its lock ends; that is what a lock is for.)
+You decide what is blocked, and you can see, change or delete your blocks in the Iqal app. Uninstalling Iqal removes the extension and the programs. On Linux, `apt purge iqal` also deletes your blocks; on Windows they are kept in `C:\ProgramData\Iqal`, in case you install Iqal again, until you delete that folder. (A block that is locked keeps Iqal installed until its lock ends; that is what a lock is for.)
 
 ## Contact
 
